@@ -1,0 +1,123 @@
+:root {
+    --primary-text-color: #757575;
+    --title-text-color: #212121;
+    --hero-text-color: #FFFFFF;
+    --accent-text-color: #2196F3;
+    --adress-text-color: rgba(255, 255, 255, 0.6)
+    ;
+
+}
+
+/* Header */
+.logo-web {font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+    color: var(--accent-text-color);
+    }
+.logo-web:hover,
+.logo-web:focus {
+    color: var(--title-text-color);}
+.logo-studio {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+    color: var(--title-text-color)}
+.logo-studio:hover,
+.logo-studio:focus{
+    color: var(--accent-text-color);
+}
+/* Site nav */
+.site-nav .link {
+    color: var(--title-text-color);}
+.site-nav .link:hover,
+.site-nav .link:focus {
+   color: var(--accent-text-color);
+}
+
+.auth-nav .link-auth {
+    color: var(--primary-text-color);
+    }
+.auth-nav .link-auth:hover,
+.auth-nav .link-auth:focus {
+color: var(--accent-text-color);
+}
+/* hero*/
+.hero {
+    background-color: #2F303A;
+}
+.hero-title {
+    color: var(--hero-text-color);
+}
+
+/* Body */
+.page {
+    background-color: #FFFFFF;
+    color: var(--primary-text-color);
+}
+ 
+.section-title,
+.list-title {
+    color: var(--title-text-color);
+}
+
+
+a {text-decoration: none;}
+
+.list {list-style: none;}
+
+/* Staff */
+.staff {
+    background-color:#F5F4FA;
+}
+
+/* Footer */
+.footer {
+    background-color: #2F303A;
+}
+.logo-footer-web {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+    color: var(--accent-text-color);
+}
+
+.logo-footer-web:hover,
+.logo-footer-web:focus {
+    color: var(--hero-text-color);
+}
+.logo-footer-studio {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+    color: var(--hero-text-color)
+}
+.logo-footer-studio:hover,
+.logo-footer-studio:focus {
+    color: var(--accent-text-color);
+}
+.address {
+    color: var(--hero-text-color);
+}
+.list-link {
+    color: var(--adress-text-color);
+}
+/*цвет заголовков  #212121 */
+/* первичній текст текст #757575 */
+/* цвет текста в герое #FFFFFF */
+/* акцент #2196F3 */
+/* цвет фона героя #2F303A */
+/* цвет фона особенности #F5F5F5 */
+/* цвет фона наша команда #F5F4FA */
+/* цвет Телефона и эмейла в адресе rgba(255, 255, 255, 0.6) */
