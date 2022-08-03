@@ -11,6 +11,26 @@
     --button-bg-color: #2196F3;
 
 }
+/* Button */
+.button {
+    color: var(--title-text-color);
+    background-color: var(--staff-bg-color);
+}
+.button:hover,
+.button:focus {
+    color: var(--primary-white-color);
+    background-color: var(--button-bg-color);
+}
+.button.primary {
+    color: var(--primary-white-color);
+    background-color: var(--button-bg-color);
+}
+.button.primary:hover, 
+.button.primary:focus {
+    color: var(--title-text-color);
+    background-color: var(--staff-bg-color);
+}
+
 
 /* Header */
 .logo-web {font-family: 'Raleway';
@@ -43,9 +63,14 @@
 .site-nav .link:focus {
    color: var(--accent-text-color);
 }
-.site-nav .link .current {
-    color: red;
+.site-nav .current {
+    color: var(--accent-text-color);
 }
+.site-nav .current:hover, 
+.site-nav .current:focus {
+    color: var(--title-text-color);
+}
+
 
 .auth-nav .link {
     color: var(--primary-text-color);
@@ -54,16 +79,12 @@
 .auth-nav .link:focus {
 color: var(--accent-text-color);
 }
-/* hero*/
+/* hero index.html*/
 .hero {
     background-color: var(--hero-bg-color);
 }
 .hero-title {
     color: var(--primary-white-color);
-}
-.button {
-    color: var(--primary-white-color);
-    background-color: var(--button-bg-color);
 }
 
 /* Body */
@@ -123,6 +144,10 @@ a {text-decoration: none;}
 }
 .list-link {
     color: var(--adress-text-color);
+}
+.list-link:hover,
+.list-link:focus {
+    color: var(--accent-text-color);
 }
 /*цвет заголовков  #212121 */
 /* первичній текст текст #757575 */
