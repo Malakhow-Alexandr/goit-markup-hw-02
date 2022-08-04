@@ -15,13 +15,16 @@
 .button {
     color: var(--title-text-color);
     background-color: var(--staff-bg-color);
+    font-family: inherit;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.6;
     text-align: center;
     letter-spacing: 0.03em;
+    cursor: pointer;
 }
 .hero .button.primary {
+    font-family: inherit;
     font-weight: 700;
     font-size: 16px;
     line-height: 1.9;
@@ -89,6 +92,10 @@ a {
 .logo-web:hover,
 .logo-web:focus {
     color: var(--title-text-color);}
+.logo-web:hover .logo-studio,
+.logo-web:focus .logo-studio {
+    color: var(--accent-text-color);
+}
 .logo-studio {
     font-family: 'Raleway';
     font-size: 26px;
@@ -126,13 +133,7 @@ a {
 .auth-nav .link:focus {
 color: var(--accent-text-color);
 }
-.auth-nav .link.current {
-    color: var(--accent-text-color);
-}
-.auth-nav .link.current:hover,
-.auth-nav .link.current:focus {
-    color: var(--primary-text-color);
-}
+
 /* </Header> */
 
 /* hero index.html*/
@@ -149,8 +150,7 @@ color: var(--accent-text-color);
     text-transform: uppercase;}
 
 /* Feature */
-.feature p {
-    font-weight: 400;
+.feature .text {
     font-size: 14px;
     line-height: 1.7;
 }
@@ -173,7 +173,6 @@ color: var(--accent-text-color);
     text-align: center;
 }
 .staff p {
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.19;
     text-align: center;}
@@ -191,6 +190,10 @@ color: var(--accent-text-color);
 .logo-footer-web:focus {
     color: var(--primary-white-color);
 }
+.logo-footer-web:hover .logo-footer-studio,
+.logo-footer-web:focus .logo-footer-studio {
+    color: var(--accent-text-color);
+}
 .logo-footer-studio {
     font-family: 'Raleway';
     font-size: 26px;
@@ -203,19 +206,14 @@ color: var(--accent-text-color);
 }
 .address {
     color: var(--primary-white-color);
-    font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 1.7;
-    
-}
+    }
 
 .list-link {
     color: var(--adress-text-color);
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
     font-size: 14px;
     line-height: 1.7;
 }
@@ -228,7 +226,6 @@ color: var(--accent-text-color);
 /* Portfolio *//* Portfolio *//* Portfolio *//* Portfolio */
 .card-title {
     color: var(--title-text-color);
-    font-family: 'Roboto';
     font-weight: 700;
     font-size: 18px;
     line-height: 2;
@@ -236,8 +233,6 @@ color: var(--accent-text-color);
 }
 .card-text {
     color: var(--primary-text-color);
-    font-family: 'Roboto';
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.9;
 }
