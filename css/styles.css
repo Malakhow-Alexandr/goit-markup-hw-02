@@ -43,20 +43,10 @@
     color: var(--primary-white-color);
     background-color: var(--button-bg-color);
 }
-.button.primary:hover, 
-.button.primary:focus {
-    color: var(--title-text-color);
-    background-color: var(--staff-bg-color);
-}
+
 .button.secondary {
     color: var(--title-text-color);
     background-color: var(--staff-bg-color);
-}
-
-.button.secondary:hover,
-.button.secondary:focus {
-    color: var(--primary-white-color);
-    background-color: var(--button-bg-color);
 }
 
 /* Body */
@@ -89,22 +79,13 @@ a {
         line-height: 1.19;
     color: var(--accent-text-color);
     }
-.logo-web:hover,
-.logo-web:focus {
-    color: var(--title-text-color);}
-.logo-web:hover .logo-studio,
-.logo-web:focus .logo-studio {
-    color: var(--accent-text-color);
-}
+
 .logo-studio {
     font-family: 'Raleway';
     font-size: 26px;
     line-height: 1.19;
     color: var(--title-text-color)}
-.logo-studio:hover,
-.logo-studio:focus{
-    color: var(--accent-text-color);
-}
+
 /* Site nav */
 .site-nav .link {
     color: var(--title-text-color);
@@ -186,24 +167,14 @@ color: var(--accent-text-color);
     line-height: 1.19;
     color: var(--accent-text-color);
 }
-.logo-footer-web:hover,
-.logo-footer-web:focus {
-    color: var(--primary-white-color);
-}
-.logo-footer-web:hover .logo-footer-studio,
-.logo-footer-web:focus .logo-footer-studio {
-    color: var(--accent-text-color);
-}
+
 .logo-footer-studio {
     font-family: 'Raleway';
     font-size: 26px;
     line-height: 1.19;
     color: var(--primary-white-color)
 }
-.logo-footer-studio:hover,
-.logo-footer-studio:focus {
-    color: var(--accent-text-color);
-}
+
 .address {
     color: var(--primary-white-color);
     font-style: normal;
@@ -237,11 +208,3 @@ color: var(--accent-text-color);
     line-height: 1.9;
 }
 
-/*цвет заголовков  #212121 */
-/* первичній текст текст #757575 */
-/* цвет текста в герое #FFFFFF */
-/* акцент #2196F3 */
-/* цвет фона героя #2F303A */
-/* цвет фона особенности #F5F5F5 */
-/* цвет фона наша команда #F5F4FA */
-/* цвет Телефона и эмейла в адресе rgba(255, 255, 255, 0.6) */
