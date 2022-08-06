@@ -34,11 +34,7 @@
     letter-spacing: 0.06em;
 }
 
-.button:hover,
-.button:focus {
-    color: var(--primary-white-color);
-    background-color: var(--button-bg-color);
-}
+
 .button.primary {
     color: var(--primary-white-color);
     background-color: var(--button-bg-color);
