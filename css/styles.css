@@ -149,7 +149,7 @@ color: var(--accent-text-color);
     line-height: 1.19;
     text-align: center;
 }
-.staff p {
+.staff .text {
     font-size: 16px;
     line-height: 1.19;
     text-align: center;}
